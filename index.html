@@ -13,15 +13,15 @@
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="shortcut icon" type="image/png" href="img/favicon_with_bg.png">
+		<!-- <link rel="shortcut icon" type="image/png" href="img/favicon_with_bg.png"> -->
 	</head>
-	<body>
+	<body style="background-color: #ffe9c6;">
 		<header>
-			<div class="logo">
+			<!-- <div class="logo">
 				<a href="https://yash-khandelwal.github.io/Portfolio/">
 					<img src="./img/favicon.png" alt="">
 				</a>
-			</div>
+			</div> -->
 			<button class="nav-toggle" aria-label="toggle navigation">
 				<span class="hamburger"></span>
 			</button>
@@ -40,49 +40,68 @@
 			<h1 class="section__title section__title--intro">
 				Hi, I am <strong>Kritagya Khandelwal</strong>
 			</h1>
-			<p class="section__subtitle section__subtitle--intro">Software Engineer at 314e Corporation</p>
-			<img src="img/myprofile.jpg" alt="A picture of kritagya working" class="intro__img">
+			<p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+			<img src="img/my_ghibily_profile.png" alt="A picture of kritagya working" class="intro__img">
 		</section>
 
 		<!-- My Services -->
 		<section class="my-services" id="services">
-			<h2 class="section__title section__title--services">What I do</h2>
-			<div class="services">
-				<div class="service">
-					<h3>Web Development</h3>
-					<p>I am a full-stack developer in MERN-stack and Django(familiarity) did some projects also. Please go through my <a href="#work">work section</a> the see the projects. Worked on NodeJS, ExpressJS, ReactJS, MongoDB, and OAuth from google API</p>
-				</div> <!-- /service -->
-				<div class="service">
-					<h3>Python</h3>
-					<p>Did several projects in python like Game development(a multi-player game) using pygame, multithreading, and socket programming. Also made a web application for generating time table on the given constraint by the faculty of the college, using Django and JS.</p>
-				</div> <!-- /service -->
-				<div class="service">
-					<h3>Machine Learning</h3>
-					<p>Knows Algorithms and implemented them in my projects like simulating Ants Evolution in an Artificial Environment using Genetic Algorithm and Deep Neural Networks, Also built an AI to learn to play flappy bird using NEAT python library.</p>
-				</div> <!-- /service -->
-				<div class="service">
-					<h3>Mobile Development</h3>
-					<p>Developed a couple of android apps for flight booking for The Ministry of Aviation under Smart India Hackathon 2019. Also developed a music player app during my training in the first year. Used both java and Kotlin for development.</p>
-				</div> <!-- /service -->
-				<div class="service">
-					<h3>3D Game Development</h3>
-					<p>Explored my interest in 3-D gaming by simulating my hostel digitally, using Unreal Engine for level development and blender for 3-D object development. Check out the work section to see its demonstration.</p>
-				</div> <!-- /service -->
-			</div> <!-- /services -->
+			<h2 class="section__title section__title--services">Familiar with</h2>
+			<div class="services-container">
+				<button class="slide-btn slide-btn--left" aria-label="Previous service">
+					<i class="fas fa-chevron-left"></i>
+				</button>
+				<div class="services">
+					<div class="service">
+						<h2>Backend Development</h2>
+						<p>I am mostly working on the Backend part of the Software systems. I have working on multiple languages: Java, Python, Javascript and Ruby. Frameworks I have used: SpringBoot, FastAPI, ExpressJS and ROR. I have worked on multiple Database and messaging Queues: Postgres, MongoDB, Elasticsearch, Kafka, RabbitMQ.</p>
+					</div> <!-- /service -->
+					<div class="service">
+						<h2>Artificial Intelligence</h3>
+						<p>Since my college days I have been very curious about AI and did my major project as well in the same field. where I have used Neural Networks and Genetic Algorithm to simulate Evolution of Ants. Now I am also exploring Agentic AI and created some projects with that as well, more coming.</p>
+					</div> <!-- /service -->
+					<div class="service">
+						<h2>Frontend Development</h2>
+						<p>In my internships I got chance to work on Frontend where I first worked on venila Javascript, JQuery and then worked with sophisticated frameworks like ReactJS. I love doing side projects, I try to present the work once in a while and for that purposes I work Frontend mostly.</p>
+					</div> <!-- /service -->
+					<div class="service">
+						<h2>Mobile Development</h2>
+						<p>Developed a couple of android apps for flight booking for The Ministry of Aviation under Smart India Hackathon 2019. Also developed a music player app during my training in the first year. Used both java and Kotlin for development. Also, explored react-native a bit</p>
+					</div> <!-- /service -->
+					<div class="service">
+						<h2>3D Game Development</h2>
+						<p>Explored my interest in 3-D gaming by simulating my hostel digitally, using Unreal Engine for level development and blender for 3-D object development. Check out the work section to see its demonstration.</p>
+					</div> <!-- /service -->
+				</div> <!-- /services -->
+				<button class="slide-btn slide-btn--right" aria-label="Next service">
+					<i class="fas fa-chevron-right"></i>
+				</button>
+			</div>
 			<a href="#work" class="btn">My Work</a>
 		</section>
+
+		<!-- Skills -->
+		<!-- <section class="my-skills" id="skills">
+			<h2 class="section__title section__title--skills">My Skills</h2>
+			<p class="section__subtitle section__subtitle--skills">A comprehensive overview of my technical expertise</p>
+			
+			<div class="skills-container">
+				<div class="skills-tree">
+				</div>
+			</div>
+		</section> -->
 
 		<!-- About me -->
 		<section class="about-me" id="about">
 			<h2 class="section__title section__title--about">Who I am</h2>
-			<p class="section__subtitle section__subtitle--about">Junior Engineering Student at IIIT Una</p>
+			<p class="section__subtitle section__subtitle--about">Senior Software Engineer at Yubi</p>
 			<div class="about-me__body">
-				<p>I am a software engineer at IIIT UNA, an avid python coder, a gamer, and a game builder.  A firm believer in self-written quote "Evolution is randomness seeking betterment" and therefore often found thinking about unprecedented possibilities. </p>
-				<p>Love brain-storming through Competitive Programming.</p>
+				<p>I am currently working in Indian Fintech Unicorn, Yubi. I have contributed to build Yubi's marketplace, I was part of the core team to build the BRE for Yubi. I am a firm believer of self-written quote "Evolution is randomness seeking betterment" and therefore often found thinking about unprecedented possibilities. </p>
+				<!-- <p>Love brain-storming through Competitive Programming.</p>
 				<a href="https://www.codechef.com/users/kritagya_yash" class = "btn">codechef</a>
-				<a href="https://codeforces.com/profile/Kritagya_khandelwal" class = "btn">codeforces</a>
+				<a href="https://codeforces.com/profile/Kritagya_khandelwal" class = "btn">codeforces</a> -->
 			</div>
-			<img src="img/standing_me.jpg" alt="just alt thing" class="about-me__img">
+			<img src="img/standing_me_ghibili.png" alt="just alt thing" class="about-me__img">
 		</section>
 
 		<!-- My work -->
@@ -103,6 +122,11 @@
 			<!-- protfolio item 01 -->
 				<a href="projects/internship_4yr.html" class="portfolio__item">
 					<img src="img/pinternship_4yr.jpg" alt="portfolio item image" class="portfolio__img">
+				</a>
+
+			<!-- protfolio item 01 -->
+				<a href="projects/pdocumentor_agent.html" class="portfolio__item">
+					<img src="img/pdocumentor_agent.png" alt="portfolio item image" class="portfolio__img">
 				</a>
 				
 			<!-- protfolio item 01 -->
@@ -173,7 +197,7 @@
 					</a>
 				</li>
 				<li class="social-list__item"><a class="social-list__link"
-					href="https://twitter.com/KritagyaKhande1?s=08">
+					href="https://x.com/erraticwonderer">
 						<i class="fab fa-twitter-square"></i>
 					</a>
 				</li>
@@ -186,6 +210,6 @@
 		</footer>
 
 		<script src="js/index.js"></script>
-
+		<script src="js/skills.js"></script>
 	</body>
 </html>
